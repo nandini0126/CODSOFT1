@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+body{
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.middle-area{
+    padding: 30px 60px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.navbar .logo{
+    max-width: 140px;
+    margin-bottom: 55px;
+}
+.navbar .logo img{
+    width: 80%;
+    height: 100%
+}
+.navbar .name{
+    color: #b46625;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-right: 500px;
+}
+.navbar .name h1{
+    color: #dab783;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin-right: 15px;
+    margin-bottom: 95px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #7b3a43;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s ease;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+
+    background: #7b3a43;
+    color: #fff;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.main-text,
+.main-img{
+    max-width: 70%;
+}
+.main-text h1{
+    color: #b46625;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    background: #ccc8c3;
+    text-align: center;
+    width: 500px; 
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.main-text h2{
+    font-size: 25px;
+    color: #7b3a43;
+    margin-top: 15px;
+}
+.main-text p{
+    color: #7b3a43;
+    font-size: 20px;
+    width: 600px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.main-text a{
+    display: inline-block;
+    color: #fff;
+    padding: 8px 20px;
+    background: #7b3a43;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main.img{
+    padding-right: 100px;
+}
+.main-img img{
+    width: 400px;
+    margin: auto;
+}
+.bottom-part .social-icon img{
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.bottom-part p{
+    color: #7b3a43;
+    font-weight: bold;
+    margin-top: 15px;
+}
